@@ -43,6 +43,7 @@ button {
 }
 
 .primary-btn {
+  display: inline-block;
   margin-top: 1.25rem;
   border: 1px solid #3f7fff;
   background: linear-gradient(120deg, #2f6fff, #6a4dff);
@@ -50,6 +51,7 @@ button {
   border-radius: 0.7rem;
   padding: 0.72rem 1.1rem;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .notice {

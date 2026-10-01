@@ -8,6 +8,7 @@ This project includes:
 - Centralized demo data for easy future replacement (`/src/data/demoData.ts`)
 - Explicit demo labeling (no claim of real analytics/revenue)
 - Responsive layout for desktop, tablet, and mobile
+- URL-based routing for pages: `/`, `/dashboard`, `/analytics`, `/monetization`, `/settings`
 
 > **Demo notice:** all analytics and revenue are sample data only until Google OAuth + YouTube Analytics integration is added.
 
