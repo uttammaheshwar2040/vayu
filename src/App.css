@@ -67,6 +67,11 @@ button {
   max-width: 78ch;
 }
 
+.notice--error {
+  border-color: #874f47;
+  background: rgba(60, 25, 25, 0.7);
+}
+
 .dashboard {
   display: grid;
   grid-template-columns: 240px 1fr;
@@ -138,6 +143,41 @@ button {
 
 .toolbar h2 {
   margin: 0;
+}
+
+.toolbar__status-group {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.source-pill {
+  border-radius: 999px;
+  border: 1px solid #2f4364;
+  padding: 0.24rem 0.62rem;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background: #11192a;
+  color: #b6c8ea;
+}
+
+.source-pill--live {
+  border-color: #2f8c5e;
+  color: #8ff3bc;
+}
+
+.source-pill--demo {
+  border-color: #6d4bc0;
+  color: #d1c0ff;
+}
+
+.source-pill--authorization_required,
+.source-pill--unavailable {
+  border-color: #9f5a4b;
+  color: #ffc8b9;
 }
 
 .range-picker {
@@ -359,6 +399,21 @@ th {
 .settings-card p,
 .settings-card li {
   color: #a6b5ce;
+}
+
+.settings-card__actions {
+  display: flex;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.ghost-btn {
+  border: 1px solid #45556d;
+  background: transparent;
+  color: #cedaf3;
+  border-radius: 0.7rem;
+  padding: 0.72rem 1.1rem;
+  cursor: pointer;
 }
 
 .settings-card ul,
